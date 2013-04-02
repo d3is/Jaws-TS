@@ -1,4 +1,8 @@
-﻿// Jaws.JS Core Classes
+﻿// Jaws Game Engine TypeScript Definitions
+// Author: Matt Greene (Deis)
+// 
+
+// Jaws.JS Core Classes
 
 interface Animation {
     // Fields
