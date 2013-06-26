@@ -223,6 +223,8 @@ declare var jaws: {
     collideCircles(object1, object2): Array;
     collideManyWithMany(list1, list2): Array;
     collideOneWithOne(object1, object2): Array;
+    //added
+    collideOneWithMany(one, many):Array;
     distanceBetween(object1, object2);
     forceArray(object): Array;
     forceInsideCanvas(item);
@@ -244,6 +246,8 @@ declare var jaws: {
     start(game_state, options?, game_stat_setup_options?);
     switchGameState(game_state, options, game_stat_setup_options);
     unpack();
+    //added
+    onload():void;
 
     Animation: {
         new (options: any): Animation;
